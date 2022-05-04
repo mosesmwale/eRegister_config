@@ -87,14 +87,12 @@ $ apt install apache2 php php-apache mariadb phpMyAdmin
 
 This command will install all the packages, a good time to have a cup of coffee. It will take some time depending on your internet connection. 
 For this exercise, you will need to navigate to the following directory to update the config files.
-a.	/data/data/com.termux/files/usr/etc/apache2 
-Replace the httpd.conf with the one shared. 
-b.	/data/data/com.termux/files/usr/etc/apache2/extra
-Replace the httpd_vhost.conf with the one shared. 
-c.	/data/data/com.termux/files/home
-upload the .bash_profile for auto startup of the packages
-d.	/data/data/com.termux/files/usr/lib
-Upload the php.ini file in this directory for php configs changes.
+
+a.	/data/data/com.termux/files/usr/etc/apache2 - Replace the httpd.conf with the one shared. 
+b.	/data/data/com.termux/files/usr/etc/apache2/extra - Replace the httpd_vhost.conf with the one shared. 
+c.	/data/data/com.termux/files/home - upload the .bash_profile for auto startup of the packages
+d.	/data/data/com.termux/files/usr/lib- Upload the php.ini file in this directory for php configs changes.
+
 If you have skills on how to setup apache, you can update things as you wish. The shared files have already configured phpMyAdmin, php and other relevant configs for plug and play
 
 
